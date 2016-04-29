@@ -14,9 +14,8 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", ">=3.2"
+  s.add_dependency "rails", ">=5.0.0.beta2"
   s.add_dependency "coffee-rails"
-  s.add_dependency "kaminari", "~> 0.16.1"
   s.add_dependency "jquery-rails"
 
   s.add_development_dependency "bootstrap-sass"
